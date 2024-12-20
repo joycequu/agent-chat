@@ -1,0 +1,42 @@
+.start-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .start-button {
+    padding: 15px 30px;
+    min-width: 250px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #4285f4;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .start-button:hover {
+    background-color: #3367d6;
+  }
+  
+  .start-button:active {
+    transform: scale(0.98);
+  }
+  
+  @media (max-width: 480px) {
+    .start-button {
+      min-width: 200px;
+      font-size: 1rem;
+      padding: 12px 24px;
+    }
+  }
