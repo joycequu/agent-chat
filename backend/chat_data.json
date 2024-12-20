@@ -1,0 +1,50 @@
+[
+    {
+        "agentResponse": "What items or categories are you interested in adding to your shopping basket today?",
+        "userResponse": "I am interested in adding baking ingredients such as flour, sugar, cocoa powder, eggs, and baking powder to my shopping basket.",
+        "max_goal": "I am interested in adding baking ingredients such as flour, sugar, cocoa powder, eggs, and baking powder to my shopping basket.",
+        "action_map": "['search inventory:flour', 'add item to basket:flour', 'search inventory:sugar', 'add item to basket:sugar', 'search inventory:cocoa powder', 'add item to basket:cocoa powder', 'search inventory:eggs', 'add item to basket:eggs', 'search inventory:baking powder', 'add item to basket:baking powder']"
+    },
+    {
+        "agentResponse": "Would you like to add or modify any items in your shopping basket, or do you have any specific preferences regarding brands or quantities for the baking ingredients?",
+        "userResponse": "Buy the basket.",
+        "max_goal": "Buy the basket.",
+        "action_map": "['buy basket']"
+    },
+    {
+        "agentResponse": "dummy robot query",
+        "userResponse": "dummy human utterance",
+        "max_goal": "dummy max_action",
+        "action_map": "['dummy action map']"
+    },
+    {
+        "agentResponse": "dummy robot query",
+        "userResponse": "dummy human utterance",
+        "max_goal": "dummy max_action",
+        "action_map": "['dummy action map']"
+    },
+    {
+        "agentResponse": "dummy robot query",
+        "userResponse": "dummy human utterance",
+        "max_goal": "dummy max_action",
+        "action_map": "['dummy action map']"
+    },
+    {
+        "agentResponse": "dummy robot query",
+        "userResponse": "dummy human utterance",
+        "max_goal": "dummy max_action",
+        "action_map": "['dummy action map']"
+    },
+    {
+        "agentResponse": "dummy robot query",
+        "userResponse": "dummy human utterance",
+        "max_goal": "dummy max_action",
+        "action_map": "['dummy action map']"
+    },
+    {
+        "agentResponse": "dummy robot query",
+        "userResponse": "dummy human utterance",
+        "max_goal": "dummy max_action",
+        "action_map": "['dummy action map']"
+    }
+]
